@@ -5,7 +5,7 @@ void M1();
 void M2();
 
     int main()
-    {   
+    {
          int a;
         cout << "Choose Method 1 or 2";
         cin >> a;
@@ -20,7 +20,7 @@ void M2();
         return 0;
     }
 
-    
+
 void M1()
     {
         int a,b,c,s,area,x;
@@ -36,8 +36,8 @@ void M1()
         cout <<x ;
         area = pow(x,0.5);
         cout << "\n  The area is " << area;
-        
-        
+
+
     }
 
 void M2()
@@ -49,8 +49,8 @@ void M2()
         cin >> b;
         area = 0.5*b*h;
         cout << "\n The area is " << area;
-        
+
     }
 
 
-    
+
