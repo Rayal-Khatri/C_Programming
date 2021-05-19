@@ -1,2 +1,0 @@
-# c-programming
-lap C++
