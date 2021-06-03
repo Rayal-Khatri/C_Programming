@@ -16,7 +16,7 @@ int main()
 
 void area (float b,float h)
     {
-            float a;
-            a=0.5*b*h;
-            cout << "The area of triangle is: "<< a;
+        float a;
+        a=0.5*b*h;
+        cout << "The area of triangle is: "<< a;
     }
