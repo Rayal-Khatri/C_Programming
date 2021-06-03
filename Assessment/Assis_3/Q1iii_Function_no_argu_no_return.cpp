@@ -1,6 +1,6 @@
 # include <iostream>
 using namespace std;
-    //WAP to compute area of triangle using no arguments and no return type
+    //WAP to compute area of triangle using no arguments and no return type 
 void area ();
 
 int main()
@@ -13,7 +13,7 @@ void area ()
     {
     float b,h;
     cout << "Enter base of the triangle: ";
-    cin >> b;
+        cin >> b;
     cout << "Enter height of the triangle: ";
     cin >> h;
     float a;
