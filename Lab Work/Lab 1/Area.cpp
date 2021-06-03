@@ -3,7 +3,7 @@
 using namespace std;
 void M1();
 void M2();
-
+//Area of triangle
     int main()
     {   
          int a;
