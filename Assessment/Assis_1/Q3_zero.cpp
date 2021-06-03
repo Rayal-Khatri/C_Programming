@@ -4,7 +4,7 @@ using namespace std;
 int main()
     {
 
-        //Q. Program to check whether an integer is positive or negative or zero
+        //Q. Program to check whether an integer is positive or negative or zero.
         int a;
         cout << "Enter a number: ";
         cin >> a;
