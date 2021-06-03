@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
     {
-        //Q. C++ program to find the sum of first n natural numbers
+        //Q. C++ program to find the sum of first n natural numbers.
         int i,s=0,n;
         cout<< "Enter a number";
         cin >> n;
