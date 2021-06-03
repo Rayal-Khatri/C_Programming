@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
     {
-        //Q. Program to print positive number entered by the user.
+        //Q. Program to print positive number entered by the user
         int a;
         cout << "Enter a number: ";
         cin >> a;
