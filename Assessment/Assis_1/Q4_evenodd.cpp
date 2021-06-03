@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// WAP to chek if the given number is even or odd
 int main()
     {
         int a;
