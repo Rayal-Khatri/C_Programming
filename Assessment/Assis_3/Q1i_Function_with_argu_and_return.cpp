@@ -1,6 +1,6 @@
 # include <iostream>
 using namespace std;
-    //WAP to compute area of triangle using arguments and return type
+    //WAP to compute area of triangle using arguments and with return type
 float area (float,float);
 
 int main()
