@@ -22,7 +22,7 @@ class point
 int main ()
 {
     point p1(10,4);
-    cout << "p1.a =" << p1.getx() << " \np1.b = " << p1.gety() << endl;
+    cout << "p1.a = " << p1.getx() << " \np1.b = " << p1.gety() << endl;
     return 0;
 }
 
