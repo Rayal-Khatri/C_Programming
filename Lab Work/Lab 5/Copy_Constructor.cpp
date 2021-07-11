@@ -49,7 +49,12 @@ void display()
         cout << "Company : "<< comp_name << endl;
         cout << "Fuel used : "<< fuel_name << endl;
         cout << "Milage : "<< milage << endl;
-        cout << "Price : "<< price << endl;
+        cout << "Price : "<< price << endl<<endl;
+    }
+    //Destructors
+    ~cars ()
+    {
+        cout<< "Destructor is called" << endl; //it is called 3 times because there are 3 objects 
     }
 };
 
