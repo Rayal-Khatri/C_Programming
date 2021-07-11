@@ -16,15 +16,15 @@ class Compnum
     }
     void display()
     {
-        cout << "Complex number is: " << real << " + "<< imaginary<<"i";
+        cout << "\n Complex number is: " << real << " + "<< imaginary<<"i"<<endl;
     }
     int getreal()
     {
-        return real;
+        return real; //to give real number value to outside the class
     }
     int getimag()
     {
-        return imaginary;
+        return imaginary; //to give imaginary number value to outside the class
     }
 };
 Compnum Add(Compnum n1,Compnum n2)
@@ -45,5 +45,11 @@ int main()
     cout<< "\n Now Adding";
     n3=Add(n1,n2);
     n3.display();
+    Compnum *ptr; // as the pointer contains the complex number value ..we need to make its daya type same as well
+    cout<<"\n Using pointers to siplay the values";
+    ptr = &n3; // giving the address of n3 to the pointer ptr 
+    ptr ->display(); //displaying the complex number value in the ptr
+    ptr=&n1;
+    ptr-> display(); //chekcing if the pointer actually works
     return 0;
 }
