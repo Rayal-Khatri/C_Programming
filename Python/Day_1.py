@@ -64,3 +64,72 @@ string1='Myname.PHP'
 print(string1.endswith('.php'))                 #Checks if the word ends with the string and returns boolean
 print(string1.startswith('My'))                 #Checks if the word starts with the string and returns boolean
 print(string1.lower().endswith("php"))          #Case Sensitive so need to check in either Upper or lowercase
+
+
+
+
+#List Operation
+
+list1=['pokemon','apple','string','daraz']              #accepts int, float, str, complex and another list as element 
+list2=[3,4,12,45,123,65,21,0]                           
+print(list1[3][1])
+print(list1[2:])                                        #prints from given index to last
+print(list1.index('string'))                            #returns incex of the string
+list1.append("Hello world")                             #appeands string to list
+list1.pop(3)                                            # pops the value in the index
+list1.insert(3,'Powerup')                               #insters the string in given index location     
+list1.remove('string')                                  #removes the string from list
+del(list1[3])                                           #deletes the element in the list of given index                         
+print("The sum of the contents of 2nd list is ",sum(list2))
+print("The max and min of the contents of 2nd list is ",max(list2),min(list2))
+print("The contents of list 1 after all modifications is ",list1)
+list2=list1.copy()                                      #copies content from list 1 to list 2
+list1.extend(list2)                                     #adds content of list 2 to list 1
+list1=sorted(list1,key=len)                             #sorts the contents of list ,,,here sorted by length 
+print('list1 sorted lis',list1)
+
+print(list(range(0,21,2)))                              # range( starting, ending , step)
+
+#Tuple And Set (Similar to list)
+tuple1=('string',1,3.5)                 #Cant modity content of tuple but can append
+set1={'member', 123,'Pokemon'}          #Doesnt take multiple same data
+set2={'member', 23,'oke'}          #Doesnt take multiple same data
+set1.add('java')
+set1.remove(123)
+print("Set 1 after operaions is ", set1)
+print("Set 1 and 2 after intersection is",set1.intersection(set2))
+print("Set 1 and 2 after Union is",set1.union(set2))
+
+#Conversion of list to other elements
+
+list1=[3,2,'sdajd','Hello']
+tuple1=(989,8.98,'apple')
+set1={'Member', "aanand"}
+tuple2=tuple(list1)
+set2=set(tuple1)
+list2=list(set1)
+print("The list touple and set is ", list2,tuple2,set2)
+
+#Dictionary
+dic1={'Name':'code','Member':2000}
+dic2={'Event':['Aws','Java','Python']}
+print(dic1)
+print(dic1.get('Name'))
+print(dic1.get('Member'))
+dic1['Place'] = 'CG'
+dic1['Name'] = "CFC"
+print(dic1.keys())                                      #returns keys present in Dictionary
+print(dic1.values())                                    #returns values of key present in DIctionary
+print(dic1.items())                                     #returns all the items in Dictonary
+print('Name' in dic1)                                   #checks if the string is in given Dictionary
+dic1.pop('Member')                                      #removes the element from Dictionary
+
+
+
+#Base conversion (decimal from binary oct aoe hex)
+
+str1='123'
+int1=int(str1)
+x=int('a',base=16)
+y=int('101101',base=2)
+print("The value of a and 101101 in decomal is", x,y)
