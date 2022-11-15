@@ -1,4 +1,5 @@
 print('Hello World')
+
 # variables
 a=2
 b,c=4,5
@@ -41,9 +42,9 @@ print("Given string after swaping case is",str.swapcase())      #Swaps case
 #Find and replace String
 para='''I am a good programmer and a quick brown fox jumps over a lazy dog. The world is a place to live and we should live in oeace and harmoy'''
 print("the location where the word dog is ",para.find('dog'))
-para.replace('fox','bear')                                    #One indicates how many times to replace
+para.replace('brown','hero',1)                                      #One indicates how many times to replace
 print('after replacing fox with bear',para)
-print("The number of 'a' in the para is ", para.count('a'))                                                 #counts the no of given string in the word
+print("The number of 'a' in the para is ", para.count('a'))     #counts the no of given string in the word
 
 
 
@@ -53,3 +54,13 @@ print(f'{TempC} degrees in Celcius is',(TempC*9/5)+32,' degrees in Farenheight')
 
 
 
+#List and types of list
+list1='item1, item2, item3'
+print(list1.split(','))                         #splits the list based on the character in the bracket
+print((' &').join(x))                           #joins the words in list to create a songle list joined by the string in bracket
+
+
+string1='Myname.PHP'
+print(string1.endswith('.php'))                 #Checks if the word ends with the string and returns boolean
+print(string1.startswith('My'))                 #Checks if the word starts with the string and returns boolean
+print(string1.lower().endswith("php"))          #Case Sensitive so need to check in either Upper or lowercase
