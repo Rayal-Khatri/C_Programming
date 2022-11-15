@@ -6,7 +6,7 @@ void M2();
 //Area of triangle
     int main()
     {   
-         int a;
+        /* int a;
         cout << "Choose Method 1 or 2";
         cin >> a;
         if (a == 1)
@@ -48,7 +48,14 @@ void M2()
         cout << "Enter base";
         cin >> b;
         area = 0.5*b*h;
-        cout << "\n The area is " << area;
+        cout << "\n The area is " << area;*/
+        int x, sum=0;
+        do
+        {
+            cin<<x;
+            sum+=x;
+            cout<<endl<<"ToTal ="<<sum;
+        }while(1);
         
     }
 

@@ -30,6 +30,6 @@ int main()
     Rectangle rect;
     rect.setwidth(2);
     rect.setheight(11);
-    cout<<"Total are is"<< rect.getArea()<<endl;
+    cout<<"Total are is "<< rect.getArea()<<endl;
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include<string.h>
 using namespace std;
-    //WAP to find out the length of string taking input from user using standard library function
+    //2.a WAP to find out the length of string taking input from user using standard library function
 int main()
     {
     char a[10];

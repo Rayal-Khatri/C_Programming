@@ -11,7 +11,7 @@ int main()
     int i=0;
     for(i=0; i<3;i++)
      {
-         cout<< i+1 <<". "<<endl;
+    cout<< i+1 <<". "<<endl;
     cout << "Enter name: ";
     cin >> s[i].name;
     cout << "Enter roll number: ";

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1639304554 source:c:\users\usha kiran khatri\desktop\c-programming\random\main.cpp
+	<iostream>
+	<stdio.h>
+
+1639304532 source:c:\users\usha kiran khatri\desktop\c-programming\random\jpt.cpp
+	<iostream>
+	<stdio.h>
+

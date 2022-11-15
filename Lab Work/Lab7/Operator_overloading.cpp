@@ -21,6 +21,7 @@ complex()
     {
         cout<<"The imaginary number is: "<< real<<" + "<<imaginary<<"i";
     }
+    //operator overloading syntax
     complex operator +(complex c)
     {
         complex temp;
@@ -35,6 +36,7 @@ int main()
     complex c2(3,4);
     complex c3;
     c3=c1+c2;
+    c3.print();//c3= c1.add(c2) 
     return 0;
 
 }
