@@ -56,6 +56,7 @@ print(f'{TempC} degrees in Celcius is',(TempC*9/5)+32,' degrees in Farenheight')
 
 #List and types of list
 list1='item1, item2, item3'
+x=list1.split(',')
 print(list1.split(','))                         #splits the list based on the character in the bracket
 print((' &').join(x))                           #joins the words in list to create a songle list joined by the string in bracket
 
